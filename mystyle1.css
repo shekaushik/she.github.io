@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    
+    background-image: url("green\ background.webp");
+    background-repeat: repeat;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #34a798;
+    opacity: 0.9;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none ;
+    margin: 2px;
+    font-size: 1.5vw;
+    font-family:'Courier New', Courier;
+}
+li a:hover{
+    background-color: #229389 ;
+}
+
+.home{
+    color: #000000;
+    text-align: center;
+    padding: 5vw;
+    background-attachment: fixed;
+    margin: 0vw 0vw 15vw 0vw;
+    font-size: 2.5vw;
+    font-family: 'Architects Daughter';
+}
+
+#boutme, #projects ,#skills{
+    font-family: 'Architects Daughter';
+    padding: 5vw;
+    margin: 15vw 0vw 15vw 0vw;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.head1{
+    font-family: 'Cinzel Decorative';
+}
+
+#she{
+    height: 27vw;
+    width: 27%;
+    margin:  10vw 36vw 0vw 36vw ;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container > div{
+    margin: 1vw;
+}
+
+
+
