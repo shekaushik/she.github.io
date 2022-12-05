@@ -71,6 +71,7 @@ li a:hover{
 
 .flex-container > div{
     margin: 1vw;
+    cursor: pointer;
 }
 
 
