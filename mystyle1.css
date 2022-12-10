@@ -74,5 +74,10 @@ li a:hover{
     cursor: pointer;
 }
 
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 
